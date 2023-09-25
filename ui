@@ -908,7 +908,7 @@ function library:Init(key)
     backgroundCorner.Name = "backgroundCorner"
     backgroundCorner.Parent = background
 
-    backgroundGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 28, 28))}
+    backgroundGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 1, 1))}
     backgroundGradient.Rotation = 90
     backgroundGradient.Name = "backgroundGradient"
     backgroundGradient.Parent = background
