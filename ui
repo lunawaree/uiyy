@@ -974,7 +974,7 @@ function library:Init(key)
     tabButtonCorner_2.Name = "tabButtonCorner"
     tabButtonCorner_2.Parent = tabButtons
 
-    tabButtonsGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(1, 1, 1)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 28, 28))}
+    tabButtonsGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 28, 28))}
     tabButtonsGradient.Rotation = 90
     tabButtonsGradient.Name = "tabButtonsGradient"
     tabButtonsGradient.Parent = tabButtons
